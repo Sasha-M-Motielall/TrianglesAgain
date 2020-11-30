@@ -43,4 +43,13 @@ public class Triangle {
   public String toString() {
     return "v1" + v1 + "v2" + v2 + "v3" + v3;
   }
+
+  public void setVertex(int index, Point newPoint) {
+    if (index == 0) {
+      v1 = newPoint;
+    }if (index == 1) {
+      v2 = newPoint;
+    }if (index == 2) {
+      v3 = newPoint;
+    }}
 }
